@@ -1,0 +1,21 @@
+{
+  "name": "maze-game",
+  "version": "1.0.0",
+  "description": "this is a project to build a maze game with vanilla JS, CSS, HTML and canvas",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "js",
+    "vanilla",
+    "css",
+    "html",
+    "maze",
+    "game",
+    "canvas"
+  ],
+  "author": "Osvaldo Arzate Santiago @_ArzCorp_",
+  "license": "MIT"
+}

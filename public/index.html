@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./index.css" />
+    <title>juego de laberinto</title>
+  </head>
+  <body>
+    <main class="game__container">
+      <section class="game__board--container">
+        <canvas id="board" class="game__board"></canvas>
+      </section>
+      <section class="game__buttons">
+        <button class="gamepad__button" id="gamepadUp">🔼</button>
+        <button class="gamepad__button" id="gamepadRight">▶️</button>
+        <button class="gamepad__button" id="gamepadDown">🔽</button>
+        <button class="gamepad__button" id="gamepadLeft">◀️</button>
+        <div class="gamepad__empty-space" id="gamepadEmptySpace"></div>
+      </section>
+      <section class="game__statistics"></section>
+    </main>
+  </body>
+  <script type="module" src="../index.js"></script>
+</html>
